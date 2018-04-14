@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Suite" parallel="tests">
+  <test thread-count="2" name="chrome Test">
+  <!--<parameter name = "browser" value="CHROME"></parameter>  -->
+    <classes>
+      <class name="com.yash.petstore.petstoretest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
